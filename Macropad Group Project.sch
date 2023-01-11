@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Macropad Group Project-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -183,7 +184,7 @@ L Device:C_Small C6
 U 1 1 63BFDF4C
 P 7175 4725
 F 0 "C6" H 7083 4679 50  0000 R CNN
-F 1 "1μF" H 7083 4770 50  0000 R CNN
+F 1 "10μF" H 7083 4770 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7175 4725 50  0001 C CNN
 F 3 "~" H 7175 4725 50  0001 C CNN
 	1    7175 4725
@@ -767,7 +768,7 @@ Wire Wire Line
 Connection ~ 3750 4600
 Text GLabel 3400 5225 0    50   Input ~ 0
 ROW1
-Text GLabel 9275 4175 2    50   Input ~ 0
+Text GLabel 9275 3875 2    50   Input ~ 0
 ROW0
 Text GLabel 9275 4375 2    50   Input ~ 0
 ROW1
